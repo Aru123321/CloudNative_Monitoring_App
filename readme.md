@@ -4,6 +4,15 @@
 
 The Cloud Native Monitoring App is a Flask-based web application designed to monitor system metrics such as CPU and Memory utilization. The application is containerized using Docker and deployed on Amazon Elastic Kubernetes Service (EKS). The project also leverages Amazon Elastic Container Registry (ECR) for storing Docker images.
 
+## Workflow
+1. App made in python using FLASK 
+2. Containerize the app using docker (build dockerfile→build the image → run the container locally)
+3. Once it is up an running locally, we will create an AWS ECR(elastic container registry) using py boto3 module
+4. In ECR we will push the docker image from 2 to store, retrieve and use the docker image in secure and efficient manner.
+5. Then in the deployment phase we will use AWS elastic Kubernetes service. Here we will create nodes and deploy the application in kubernetes.
+6. We will create deployment and services using python so that our application is accessible from the internet which is deployed on kubernetes.
+
+
 ## Tech Stack
 
 - **Flask**: A lightweight WSGI web application framework used for developing the web app.
