@@ -28,7 +28,7 @@ The Cloud Native Monitoring App is a Flask-based web application designed to mon
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-repo/cloud-native-monitoring-app.git
+    git clone https://github.com/Aru123321/CloudNative_Monitoring_App.git
     cd cloud-native-monitoring-app
     ```
 
